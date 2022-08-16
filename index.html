@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encriptador</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/resect.css'>
+    <link rel='stylesheet' type='text/css' href='css/estilos.css'>
+    <link rel='stylesheet' type='text/css' href='css/estilosVistas.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css'>
+    <script src='js/encriptador.js'></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/logo.jpg" class="logo">
+    </div>
+
+    <div class="container">
+        <textarea type="text" class="container_input" placeholder="Ingresar el Texto" id="mensaje"></textarea>
+        <button type="button" class="container_btn btn-encriptar" id="encriptar">Encriptar</button>
+        <button type="button" class="container_btn btn-decencriptar" id="decencriptar">Decencriptar</button>
+        <p class="container_info"><i class="fa-solid fa-circle-info"></i> Solo letras minuculas y sin acentos</p>
+    </div>    
+        <div class="container_box">
+            <img src="img/muñeco.png" class="muñeco">
+            <textarea class="container_box-txt" id="resultado" placeholder="Ningun mensaje fue encriptado" readonly></textarea>
+            <button class="btn-secundary" id="copy"><i class="fa-solid fa-clone"></i></button>
+        </div>
+    
+
+    <footer class="copyright">Design: Yefferson Reyes</footer>
+</body>
+
+</html>

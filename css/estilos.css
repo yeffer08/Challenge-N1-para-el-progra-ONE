@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(/fonts/Roboto-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Inconsolata_SemiExpanded-ExtraLight;
+    src: url(/fonts/Inconsolata_SemiExpanded-ExtraLight.ttf) format("truetype");
+}
+
+/*Vista Computador*/
+* {
+    background: #F4F5FC;
+}
+
+textarea {
+    resize: none;
+    padding: 34px 20px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 4%;
+    z-index: 4;
+}
+
+.container {
+    
+    text-align: center;
+}
+
+.container_input {
+    position: absolute;
+    border: none;
+    padding: 40px 40px;
+    width: 40%;
+    height: 45%;
+    left: 15%;
+    top: 20%;
+    font-family: 'Roboto-Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.container_info {
+    position: absolute;
+    width: 40%;
+    height: 20px;
+    top: 80%;
+    left: 1%;
+    font-family: 'Roboto-Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+/*Div de los botones*/
+.container_btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+
+}
+
+.btn-encriptar:hover {
+    background: #fff;
+    color: black;
+}
+
+.btn-decencriptar:hover {
+    background: #0A3871;
+    color: #fff;
+}
+
+.btn-encriptar {
+    position: absolute; 
+    gap: 8px;
+    top: 83.5%;
+    left: 15%;
+    width: 20%;
+    height: 8.5%;
+    color: #FFFFFF;
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+.btn-decencriptar {
+    position: absolute; 
+    gap: 8px;
+    top: 83.5%;
+    left: 38%;
+    width: 20%;
+    height: 8.5%;
+    color: #0A3871;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+/*Div del imagen*/
+.container_box {
+    position: relative;
+    width: 400px;
+    height: 820px;
+    left: 70%;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.18);
+    border-radius: 32px;
+    z-index: 1;
+
+}
+
+.muñeco {
+    position: absolute;
+    width: 80%;
+    background: #FFFFFF;
+    height: 304px;
+    left: 10%;
+    top: 70px;
+    z-index: 2;
+}
+
+.container_box-txt {
+    position: absolute;
+    background: #FFFFFF;
+    border: none;
+    top: 50%;
+    left: 0.09%;
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+}
+
+.btn-secundary {
+    position: absolute;
+    padding: 20px 20px;
+    font-size: 20px;
+    top: 80%;
+    cursor: pointer;
+    color: #0A3871;
+    border-radius: 32px;
+    right: 41%;
+}
+
+.btn-secundary:hover {
+    background: #fff;
+    color: black;
+
+}
+
+.copyright {
+    position: absolute;
+    text-align: center; 
+    gap: 8px;
+    top: 92.5%;
+    left: 15%;
+    width: 43%;
+    height: 2%;
+    color: #FFFFFF;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #ffff;
+    background: #0A3871;
+    font-family: "Inconsolata_SemiExpanded-ExtraLight";
+}

@@ -1,0 +1,221 @@
+@media screen and (max-width: 1000px) {
+    /*logo*/
+    .logo{
+        width: 10%;
+        top:5%;
+    }
+    /*Inputs*/
+    
+    .container_input {
+        width: 40%;
+        height: 15%;
+        left: 25%; 
+        top:10%;
+    }
+
+    .container_info {
+        width: 40%;
+        height: 20px;
+        top: 42%;
+        left: 6%;
+        font-size:16px;
+    }
+
+    .copyright {
+        font-size:16px;
+        top: 95.5%;
+        left: 18%;
+        width:69%;
+        height: 3.5%;
+    }
+
+    /*Botones*/
+
+    .btn-encriptar {
+        top: 45.5%;
+        left: 8%;
+        width: 40%;
+        height: 6.5%;
+        
+    }
+
+    .btn-decencriptar {
+        top: 45.5%;
+        left: 52%;
+        width: 40%;
+        height: 6.5%;  
+    }
+
+    .btn-secundary {
+        padding: 15px 15px;
+        font-size:15px;
+        top: 78%;
+        right: 3%;
+    }
+
+    /*Container de resultado*/
+    .muñeco{
+        display:none;
+    }
+    .container_box {
+        position: absolute;
+        width: 86%;
+        height: 350px;
+        left: 7.5%;
+        top: 55%;
+    }
+    .container_box-txt{
+        width: 70%;
+        height: 40%;
+        top: 2%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /*logo*/
+    .logo{
+        width: 15%;
+        top:2%;
+    }
+    /*Inputs*/
+    
+    .container_input {
+        width: 40%;
+        height: 15%;
+        left: 25%; 
+        top:10%;
+    }
+
+    .container_info {
+        width: 40%;
+        height: 20px;
+        top: 30%;
+        left: 30%;
+    }
+
+    .copyright {
+        top: 90.5%;
+        left: 18%;
+        width:69%;
+        height: 2%;
+    }
+
+    /*Botones*/
+
+    .btn-encriptar {
+        top: 45.5%;
+        left: 8%;
+        width: 40%;
+        height: 6.5%;
+        
+    }
+
+    .btn-decencriptar {
+        top: 45.5%;
+        left: 52%;
+        width: 40%;
+        height: 6.5%;  
+    }
+
+    .btn-secundary {
+        padding: 15px 15px;
+        font-size:15px;
+        top: 65%;
+        right: 8%;
+    }
+
+    /*Container de resultado*/
+    .muñeco{
+        display: none;
+    }
+    .container_box {
+        position: absolute;
+        width: 70%;
+        height: 200px;
+        left: 15.5%;
+        top: 55%;
+    }
+    .container_box-txt{
+        width: 60%;
+        height: 40%;
+        top: 2%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    /*logo*/
+    .logo{
+        width: 20%;
+    }
+    /*Inputs*/
+    
+    .container_input {
+        width: 50%;
+        height: 15%;
+        left: 15%;
+        top:9%; 
+    }
+
+    .container_info {
+        width: 60%;
+        height: 20px;
+        top: 30%;
+        left: 16%;
+    }
+
+    .copyright {
+        top: 93.5%;
+        left: 18%;
+        width:60%;
+        height: 2%;
+    }
+
+    /*Botones*/
+
+    .btn-encriptar {
+        top: 38.5%;
+        left: 18%;
+        width: 28%;
+        height: 6.5%;
+        font-size:14px;
+    }
+
+    .btn-decencriptar {
+        top: 38.5%;
+        left: 50%;
+        width: 28%;
+        height: 6.5%;
+        font-size:14px;
+    }
+
+    .btn-secundary {
+        padding: 15px 15px;
+        font-size:15px;
+        top: 65%;
+        right: 8%;
+    }
+
+    /*Container de resultado*/
+    .muñeco{
+        display: none;
+    }
+    .container_box {
+        position: absolute;
+        width: 70%;
+        height: 200px;
+        left: 15.5%;
+        top: 55%;
+    }
+    .container_box-txt{
+        position: relative;
+        width: 60%;
+        height: 40%;
+        top: 10%;
+        left: 10%;
+    }
+}
+
+
+
