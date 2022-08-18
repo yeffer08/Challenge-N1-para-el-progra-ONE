@@ -88,10 +88,10 @@
     }
 
     .container_info {
-        width: 40%;
+        width: auto;
         height: 20px;
-        top: 30%;
-        left: 30%;
+        top: 42%;
+        left: 25%;
     }
 
     .copyright {
@@ -121,8 +121,8 @@
     .btn-secundary {
         padding: 15px 15px;
         font-size:15px;
-        top: 65%;
-        right: 8%;
+        top: 75%;
+        right: 6%;
     }
 
     /*Container de resultado*/
@@ -132,13 +132,13 @@
     .container_box {
         position: absolute;
         width: 70%;
-        height: 200px;
+        height: 290px;
         left: 15.5%;
         top: 55%;
     }
     .container_box-txt{
-        width: 60%;
-        height: 40%;
+        width: auto;
+        height: 45%;
         top: 2%;
         left: 10%;
     }
@@ -161,14 +161,14 @@
     .container_info {
         width: 60%;
         height: 20px;
-        top: 30%;
+        top: 47%;
         left: 16%;
     }
 
     .copyright {
         top: 93.5%;
         left: 18%;
-        width:60%;
+        width:71%;
         height: 2%;
     }
 
@@ -203,15 +203,15 @@
     }
     .container_box {
         position: absolute;
-        width: 70%;
-        height: 200px;
+        width: auto;
+        height: 350px;
         left: 15.5%;
         top: 55%;
     }
     .container_box-txt{
         position: relative;
-        width: 60%;
-        height: 40%;
+        width: 70%;
+        height: 200px;
         top: 10%;
         left: 10%;
     }
